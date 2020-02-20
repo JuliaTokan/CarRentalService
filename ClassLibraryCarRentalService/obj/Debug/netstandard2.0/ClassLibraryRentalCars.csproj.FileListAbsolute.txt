@@ -1,0 +1,9 @@
+C:\Users\Yulia\source\repos\Lab1RentalCars\ClassLibraryRentalCars\bin\Debug\netstandard2.0\ClassLibraryRentalCars.deps.json
+C:\Users\Yulia\source\repos\Lab1RentalCars\ClassLibraryRentalCars\bin\Debug\netstandard2.0\ClassLibraryRentalCars.dll
+C:\Users\Yulia\source\repos\Lab1RentalCars\ClassLibraryRentalCars\bin\Debug\netstandard2.0\ClassLibraryRentalCars.pdb
+C:\Users\Yulia\source\repos\Lab1RentalCars\ClassLibraryRentalCars\obj\Debug\netstandard2.0\ClassLibraryRentalCars.csprojAssemblyReference.cache
+C:\Users\Yulia\source\repos\Lab1RentalCars\ClassLibraryRentalCars\obj\Debug\netstandard2.0\ClassLibraryRentalCars.csproj.CoreCompileInputs.cache
+C:\Users\Yulia\source\repos\Lab1RentalCars\ClassLibraryRentalCars\obj\Debug\netstandard2.0\ClassLibraryRentalCars.AssemblyInfoInputs.cache
+C:\Users\Yulia\source\repos\Lab1RentalCars\ClassLibraryRentalCars\obj\Debug\netstandard2.0\ClassLibraryRentalCars.AssemblyInfo.cs
+C:\Users\Yulia\source\repos\Lab1RentalCars\ClassLibraryRentalCars\obj\Debug\netstandard2.0\ClassLibraryRentalCars.dll
+C:\Users\Yulia\source\repos\Lab1RentalCars\ClassLibraryRentalCars\obj\Debug\netstandard2.0\ClassLibraryRentalCars.pdb

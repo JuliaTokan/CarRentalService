@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79EFBABD-2A67-4BF3-9D91-D98C80158787}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Lab1RentalCars</RootNamespace>
+    <AssemblyName>Lab1RentalCars</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientByClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientByClass.Designer.cs">
+      <DependentUpon>ClientByClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientsByCarsNum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientsByCarsNum.Designer.cs">
+      <DependentUpon>ClientsByCarsNum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientsByClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientsByClient.Designer.cs">
+      <DependentUpon>ClientsByClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetRentalCars.cs">
+      <DependentUpon>DataSetRentalCars.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetRentalCars.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRentalCars.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormRentalCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRentalCars.Designer.cs">
+      <DependentUpon>FormRentalCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FindCar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindCar.Designer.cs">
+      <DependentUpon>FindCar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FreeCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FreeCars.Designer.cs">
+      <DependentUpon>FreeCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClients.Designer.cs">
+      <DependentUpon>FrmClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmContracts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContracts.Designer.cs">
+      <DependentUpon>FrmContracts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModel.Designer.cs">
+      <DependentUpon>FrmModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSalons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSalons.Designer.cs">
+      <DependentUpon>FrmSalons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalonByBrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalonByBrand.Designer.cs">
+      <DependentUpon>SalonByBrand.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ClientByClass.resx">
+      <DependentUpon>ClientByClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientsByCarsNum.resx">
+      <DependentUpon>ClientsByCarsNum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientsByClient.resx">
+      <DependentUpon>ClientsByClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRentalCars.resx">
+      <DependentUpon>FormRentalCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindCar.resx">
+      <DependentUpon>FindCar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FreeCars.resx">
+      <DependentUpon>FreeCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmClients.resx">
+      <DependentUpon>FrmClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContracts.resx">
+      <DependentUpon>FrmContracts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModel.resx">
+      <DependentUpon>FrmModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSalons.resx">
+      <DependentUpon>FrmSalons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SalonByBrand.resx">
+      <DependentUpon>SalonByBrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSetRentalCars.xsc">
+      <DependentUpon>DataSetRentalCars.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRentalCars.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRentalCars.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetRentalCars.xss">
+      <DependentUpon>DataSetRentalCars.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryRentalCars\ClassLibraryRentalCars.csproj">
+      <Project>{7774c12d-a032-4b5a-8d0b-34dd468c33fb}</Project>
+      <Name>ClassLibraryRentalCars</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Web1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pkw.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
